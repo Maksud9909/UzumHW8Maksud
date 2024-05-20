@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e09bbdc7-9ce9-4fb9-afcf-f6f2ca3b57da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/FactoryAF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/FactoryAF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/FactoryAF.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +36,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.org.example.main.Main.executor": "Run",
+    "JUnit.FactoryAFTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -58,7 +50,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.org.example.main.Main">
+  <component name="RunManager" selected="JUnit.FactoryAFTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="UzumHW8Maksud" />
@@ -96,8 +88,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.example.main.Main" />
         <item itemvalue="JUnit.FactoryAFTest" />
+        <item itemvalue="Application.org.example.main.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -118,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716193134938</updated>
       <workItem from="1716193136076" duration="607000" />
-      <workItem from="1716193756585" duration="3871000" />
+      <workItem from="1716193756585" duration="4171000" />
     </task>
     <servers />
   </component>

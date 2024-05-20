@@ -24,7 +24,8 @@ public class FactoryAF {
         Iterator<Customer> iterator = customers.iterator();
         while (iterator.hasNext()) {
             Customer customer = iterator.next();
-            if (cars.contains(customer.getCar())) {
+            Car car = customer.getCar();
+            if (car !=null && cars.contains(car)) {
                 iterator.remove();
                 cars.remove(customer.getCar());
             }
