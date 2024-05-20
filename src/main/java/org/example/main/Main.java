@@ -37,29 +37,20 @@ public class Main {
 
     static List<Car> addFiveCars(){
         List<Car> cars = new ArrayList<>();
-        Engine engine1 = new Engine(10);
-        Engine engine2 = new Engine(20);
-        Engine engine3 = new Engine(30);
-        Engine engine4 = new Engine(40);
-        Engine engine5 = new Engine(50);
-        cars.add(new Car(1,engine1));
-        cars.add(new Car(2,engine2));
-        cars.add(new Car(3,engine3));
-        cars.add(new Car(4,engine4));
-        cars.add(new Car(5,engine5));
+        cars.add(new Car(1,10));
+        cars.add(new Car(2,20));
+        cars.add(new Car(3,30));
+        cars.add(new Car(4,40));
+        cars.add(new Car(5,50));
         return cars;
     }
 
     static List<Customer> addFourCustomers(){
         List<Customer> customers = new ArrayList<>();
-        Engine engine1 = new Engine(10);
-        Engine engine2 = new Engine(20);
-        Engine engine3 = new Engine(30);
-        Engine engine4 = new Engine(40);
-        Car car1 = new Car(1,engine1);
-        Car car2 = new Car(2,engine2);
-        Car car3 = new Car(3,engine3);
-        Car car4 = new Car(4,engine4);
+        Car car1 = new Car(1,10);
+        Car car2 = new Car(2,20);
+        Car car3 = new Car(3,30);
+        Car car4 = new Car(4,40);
 
         customers.add(new Customer("Петров Михаил Викторович",car1));
         customers.add(new Customer("Сидорова Анна Юрьевна",car2));

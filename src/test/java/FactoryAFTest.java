@@ -16,16 +16,11 @@ class FactoryAFTest {
     @Test
     void testSaleCar() {
         List<Car> cars = new ArrayList<>();
-        Engine engine1 = new Engine(10);
-        Engine engine2 = new Engine(20);
-        Engine engine3 = new Engine(30);
-        Engine engine4 = new Engine(40);
-        Engine engine5 = new Engine(50);
-        cars.add(new Car(1, engine1));
-        cars.add(new Car(2, engine2));
-        cars.add(new Car(3, engine3));
-        cars.add(new Car(4, engine4));
-        cars.add(new Car(5, engine5));
+        cars.add(new Car(1, 10));
+        cars.add(new Car(2, 20));
+        cars.add(new Car(3, 30));
+        cars.add(new Car(4, 40));
+        cars.add(new Car(5, 50));
 
         List<Customer> customers = new ArrayList<>();
         Customer customer1 = new Customer("Петров Михаил Викторович", cars.get(0));
