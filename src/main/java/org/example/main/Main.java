@@ -2,7 +2,6 @@ package org.example.main;
 
 import org.example.entity.Car;
 import org.example.entity.Customer;
-import org.example.entity.Engine;
 import org.example.entity.FactoryAF;
 
 
@@ -52,10 +51,18 @@ public class Main {
         Car car3 = new Car(3,30);
         Car car4 = new Car(4,40);
 
-        customers.add(new Customer("Петров Михаил Викторович",car1));
-        customers.add(new Customer("Сидорова Анна Юрьевна",car2));
-        customers.add(new Customer("Кузнецова Елена Сергеевна",car3));
-        customers.add(new Customer("Иванов Сергей Александрович",car4));
+        Customer customer1 = new Customer("Петров Михаил Викторович");
+        customer1.setCar(car1);
+        Customer customer2 = new Customer("Сидорова Анна Юрьевна");
+        customer2.setCar(car2);
+        Customer customer3 = new Customer("Кузнецова Елена Сергеевна");
+        customer3.setCar(car3);
+        customers.add(customer3);
+
+        Customer customer4 = new Customer("Иванов Сергей Александрович");
+        customer4.setCar(car4);
+        customers.add(customer4);
+
         return customers;
     }
 }

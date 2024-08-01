@@ -5,18 +5,19 @@ import lombok.Data;
 import java.util.Iterator;
 import java.util.List;
 
-
 @Data
 public class FactoryAF {
-    List<Car> cars;
-    List<Customer> customers;
+    private List<Car> cars;
+    private List<Customer> customers;
+    private int number = 0;
 
     public FactoryAF(List<Car> cars, List<Customer> customers) {
         this.cars = cars;
         this.customers = customers;
     }
 
-    public void addCar(Car car){
+    public void addCar(Integer engineSize) {
+        Car car = new Car(number++, engineSize);
         cars.add(car);
     }
 
@@ -24,10 +25,10 @@ public class FactoryAF {
         Iterator<Customer> iterator = customers.iterator();
         while (iterator.hasNext()) {
             Customer customer = iterator.next();
-            Car car = customer.getCar();
-            if (car !=null && cars.contains(car)) {
+            Car customerCar = customer.getCar();
+            if (customerCar != null && cars.contains(customerCar)) {
                 iterator.remove();
-                cars.remove(customer.getCar());
+                cars.remove(customerCar);
             }
         }
         if (!cars.isEmpty()) {

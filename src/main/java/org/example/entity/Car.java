@@ -4,8 +4,8 @@ import lombok.Data;
 
 @Data
 public class Car {
-    private final int number;
-    private final Engine engine;
+    private int number;
+    private Engine engine;
 
     public Car(int number, int engineSize) {
         this.number = number;

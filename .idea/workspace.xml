@@ -7,6 +7,11 @@
     <list default="true" id="e09bbdc7-9ce9-4fb9-afcf-f6f2ca3b57da" name="Changes" comment="/">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/FactoryAF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/FactoryAF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FactoryAFTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FactoryAFTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +42,7 @@
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.org.example.main.Main.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.FactoryAFTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FactoryAFTest.testSaleCar.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -122,7 +128,8 @@
       <updated>1716193134938</updated>
       <workItem from="1716193136076" duration="607000" />
       <workItem from="1716193756585" duration="4331000" />
-      <workItem from="1716203198596" duration="1034000" />
+      <workItem from="1716203198596" duration="6489000" />
+      <workItem from="1716368208135" duration="66000" />
     </task>
     <task id="LOCAL-00001" summary="/">
       <option name="closed" value="true" />
@@ -132,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716200425252</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="/">
+      <option name="closed" value="true" />
+      <created>1716204571922</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716204571922</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
